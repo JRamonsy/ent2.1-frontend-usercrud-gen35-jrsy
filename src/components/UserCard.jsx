@@ -13,7 +13,6 @@ const UserCard = ({ user, deleteUser, setUserEdit, handleOpenForm, }) => {
   return (
     <article className="userCard__body">
       <div className="userCard__title">
-        <h1>User Cards</h1>
       </div>
       <div className="useCard__card">
         <h2>{`${user.first_name} ${user.last_name}`}</h2>

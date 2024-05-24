@@ -10,7 +10,7 @@ function App() {
 
   const [formIsClose, setFormIsClose] = useState(true)
 
-  const BASEURL = 'https://users-crud.academlo.tech'
+  const BASEURL = "https://ent2-nodejs-api-crud-gen35-jrsy.onrender.com";
 
   const [users, getUser, createUser, deleteUser, updateUser] = useCrud(BASEURL); /*lo que retorna usecred solo con diferente nombre pero es lo mismo*/
 
